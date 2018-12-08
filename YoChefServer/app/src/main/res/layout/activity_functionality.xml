@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Functionality">
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnAddChef"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:shadowColor="@color/viewColor"
+        android:text="ADD CHEF"
+        android:textColor="@color/viewColor"
+        android:textSize="20sp"
+        app:cornerRadius="4dp"
+        app:fButtonColor="@color/btnManager"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnGetOrders"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:shadowColor="@color/viewColor"
+        android:text="GET ORDERS"
+        android:textColor="@color/viewColor"
+        android:textSize="20sp"
+        app:cornerRadius="4dp"
+        app:fButtonColor="@color/btnCM"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        android:layout_below="@+id/btnAddChef"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnIncome"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:shadowColor="@color/viewColor"
+        android:text="TODAY's INCOME"
+        android:textColor="@color/viewColor"
+        android:textSize="20sp"
+        app:cornerRadius="4dp"
+        app:fButtonColor="@color/background"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        android:layout_below="@+id/btnGetOrders"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004d40</color>
+    <color name="colorPrimaryDark">#00251a</color>
+    <color name="colorAccent">#39796b</color>
+    <color name="navigationBarColor">#000</color>
+    <color name="Black">#000</color>
+    <color name="btnCustomer">#A9d440</color>
+    <color name="btnCM">#39796b</color>
+    <color name="background">#501C0E</color>
+    <color name="viewColor">#fff</color>
+    <color name="LightGreen">#96fe70</color>
+
+</resources>

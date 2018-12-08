@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/listview_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:padding="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/txtFoodName"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtFoodName"
+            android:layout_marginLeft="300dp"
+            android:layout_marginBottom="-34dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#377b23"
+            android:textSize="20sp" />
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/NumberButton"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="101dp"
+            android:layout_marginEnd="3dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            app:finalNumber="20"
+            app:initialNumber="0">
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/NumberButton"
+            android:layout_alignBottom="@+id/txtFoodName"
+            android:layout_marginRight="-290dp"
+            android:layout_marginBottom="-34dp"
+            android:layout_toStartOf="@+id/txtPrice"
+            app:srcCompat="@drawable/rupee" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

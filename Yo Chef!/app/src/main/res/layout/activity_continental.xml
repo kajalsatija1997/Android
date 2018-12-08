@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Continental">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CONTINENTAL"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnAddC"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="ADD"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="9dp"/>
+    <Button
+        android:id="@+id/btnOrderC"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="ORDER"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"/>
+
+    <ListView
+        android:id="@+id/lv3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".customer"
+    android:background="@drawable/cus_bg">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginLeft="50dp"
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        android:src="@drawable/logo_bg_remove"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="239dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColorHint="@color/viewColor"
+        android:textSize="20sp"
+        app:met_baseColor="@color/viewColor"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@color/viewColor"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etmob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="133dp"
+        android:hint="Contact No."
+        android:inputType="number"
+        android:textColorHint="@color/viewColor"
+        android:textSize="20sp"
+        app:met_baseColor="@color/viewColor"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@color/viewColor"
+        app:met_singleLineEllipsis="true" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnBookTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:shadowColor="@color/viewColor"
+        android:text="Book Table"
+        android:textColor="@color/viewColor"
+        android:textSize="20sp"
+        app:cornerRadius="4dp"
+        app:fButtonColor="@color/btnCustomer"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp" />
+
+</RelativeLayout>
+
+
+</FrameLayout>
